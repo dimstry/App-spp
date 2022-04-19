@@ -22,14 +22,13 @@
                                     <div class='text-center'>
                                         <h1 class='h4 text-dark mb-4'>Selamat Datang</h1>
                                     </div>
-                                    <form class='user' method='post'>
+                                    <form class='user' method='post' autocomplete='off'>
                                         <div class='form-group'>
                                             <input type='text' name='username' class='form-control form-control-user'placeholder='Enter ussername'>
                                         </div>
                                         <div class='form-group'>
                                             <input type='password' name='password' id='pw' class='form-control form-control-user'placeholder='Password'>
-                                        </div>
-<input type='checkbox' onclick='myFunction()'>Show Password                                 
+                                        </div>                               
                                         <div class='form-group'>
                                             <select class='custom-select rounded-pill' name='pilih'  id='pilih'>
                                                 <option selected>--login sebagai--</option>
@@ -39,7 +38,7 @@
                                             </select>
                                         </div>
                                         <input type='submit' name='tombol' value='Login'  class='btn btn-primary btn-user btn-block'>
-                              $keterangan
+                                            $keterangan
                                         </input>
                                     </form>
                                     </div>
