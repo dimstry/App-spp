@@ -1,0 +1,8 @@
+.bacground {
+	background-image:url(../img/bg.jpg);
+	background-size: cover;
+}
+.cardd{
+	background-image:url(../img/bg2.jpg);
+	background-size:930px;
+} 
