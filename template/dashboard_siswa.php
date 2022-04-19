@@ -1,6 +1,6 @@
 <?php
-    include("sidebar.php");
-    include("topbar.php");
+    include("sidebar_siswa.php");
+    include("topbar_siswa.php");
     include("footer.php");
     echo "
   <!DOCTYPE html>
@@ -32,7 +32,7 @@
     <div id='wrapper'>
 
         <!-- Sidebar -->
-        $sidebar
+        $sidebar_siswa
         <!-- akhir Sidebar -->
         
         <!-- Content Wrapper -->
@@ -42,7 +42,7 @@
             <div id='content'>
 
              <!-- Topbar -->
-              $topbar
+              $topbar_siswa
                 <!-- End of Topbar -->
 
                 <!-- Konten -->
